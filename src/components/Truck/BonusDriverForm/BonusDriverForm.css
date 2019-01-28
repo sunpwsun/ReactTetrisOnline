@@ -1,0 +1,43 @@
+.formTitle {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100%;
+    color : black;
+    padding-bottom : 20px;
+}
+
+.changeBtn {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100%;
+    border: solid #1790ff 1px;
+    border-radius: 8px;
+    color: white;
+    background-color: #47a1f7;
+
+    padding-top: 5px;
+    padding-bottom: 5px;    
+    margin-bottom: 10px;   
+
+    transition-duration: 0.5s;
+}
+
+.changeBtn:hover{
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100%;
+    border: solid powderblue 1px;
+    border-radius: 8px;
+    color: white;
+    background-color: lightskyblue;
+
+    padding-top: 5px;
+    padding-bottom: 5px;    
+    margin-bottom: 10px;   
+}
+
+.bonusDriverForm {
+    padding-top : 10px;
+    border-bottom: 1px solid darkgray;
+}

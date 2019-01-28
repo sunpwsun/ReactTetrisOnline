@@ -1,0 +1,154 @@
+.gameRoomChooseForm {
+
+    display: grid;
+    grid-template-columns: 225px 50px 275px;
+
+    width: 550px;
+
+
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 1.2rem;
+
+    border: solid powderblue 1px;
+    padding: 20px;
+    border-radius: 8px;
+
+    margin-top: 70px;
+
+    box-shadow: 3px 3px 3px lightskyblue
+}
+
+
+.roomListbox {
+    overflow-y: scroll; 
+    width: 200px;
+    height: 300px;
+
+    border: solid rgb(100, 174, 184) 2px;
+    
+    border-radius: 8px;
+    margin-top : 10px;
+    margin-bottom : 10px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+
+
+.gameRoomName {
+    
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.gameRoomName:hover {
+    cursor: pointer;
+    background-color: rgb(65, 124, 192);
+    font-weight: 600;
+    color: white;
+}
+
+.welcome {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 750;
+    color: rgb(26, 88, 6);
+    margin-top: 30px;
+}
+
+.totalText {
+    font-size: 1.2rem;
+    font-weight: 650;
+    color: rgb(21, 26, 20);
+}
+
+.selectText {
+    font-size: 1.5rem;
+    font-weight: 650;
+    color: rgb(21, 26, 20);
+    text-align: center;
+}
+
+.or {
+
+    /* position: fixed; */
+    margin-top: 150px;
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+
+} 
+
+
+.battleNameInput {
+    margin-left : 5px;
+    width: 250px;
+    border:none;
+    border-bottom : 2px solid black;
+    font-size: 1.5rem;
+}
+
+.battleNameText {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: solid rgb(100, 174, 184) 2px;
+
+    padding-bottom : 5px;
+}
+
+.makeBtn {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    border: solid #1790ff 1px;
+    border-radius: 8px;
+    color: white;
+    background-color: #47a1f7;
+
+    padding-top: 5px;
+    padding-bottom: 5px;   
+    margin-top: 20px; 
+    margin-bottom: 10px;   
+
+    transition-duration: 0.5s;
+}
+    
+.makeBtn:hover{
+    cursor: pointer;
+    border: solid powderblue 1px;
+    background-color: lightskyblue;
+}
+
+
+.battleName {
+    margin-top: 10px;
+    padding : 10px 10px 5px 5px;
+    border : solid rgb(100, 174, 184) 2px;
+    border-radius: 5px;
+}
+
+.battleLevel {
+    margin-top: 30px;
+    padding : 10px 10px 5px 5px;
+    border : solid rgb(100, 174, 184) 2px;
+    border-radius: 5px;
+}
+
+.radioStyle {
+    display: block;
+    height: 23px;
+    line-height: 30px;
+    font-size : 1rem;
+    padding-left : 20px;
+}

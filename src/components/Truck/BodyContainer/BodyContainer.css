@@ -1,0 +1,4 @@
+.bodyGrid {
+    display: grid;
+    grid-template-columns: 300px 730px 350px;
+}

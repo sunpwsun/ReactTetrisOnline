@@ -1,0 +1,31 @@
+.timerTitle {
+    padding: 0.5rem;
+    padding-left : 1rem;
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: 500;
+    background: #8699a5;;
+    color: white;
+
+    border-bottom: 2px solid white;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.time {
+    padding: 0.5rem;
+    padding-right: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    background: #3698da;;
+    color: black;
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.timer {
+    margin-top : 100px;
+}

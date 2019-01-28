@@ -1,0 +1,13 @@
+.canvasContainer {
+    margin-top : 10px;
+    margin-left : 10px;
+}
+
+.mapCanvas {
+     margin-top : 10px;
+}
+
+.toggleBtn {
+    color: black;
+    font-weight: 400;
+}

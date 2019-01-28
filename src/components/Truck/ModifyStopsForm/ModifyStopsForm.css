@@ -1,0 +1,197 @@
+.stopInputLayout {
+    margin-left : 20px;
+    margin-right : 20px;
+    display: grid;
+    grid-template-columns: 40px 60px 60px 70px 70px;
+
+    font-size: 1.1rem;
+    font-weight:  700;
+    text-align: center;
+    color: black;
+
+    margin-top : 1px;
+    margin-bottom : 1px;
+}
+
+.changeXYInput {
+    background-color: rgba(212, 231, 240, 0.5);
+    
+    border:none;
+
+    text-align: right;
+    width : 50px;
+
+    font-size: 1rem;
+    font-weight:  500;
+}
+
+.changeXYInput:hover {
+
+    background-color: lightgray;
+}
+
+.changeSpeedInput {
+    background-color: rgba(212, 231, 240, 0.5);
+    border:none;
+    text-align: right;
+    width : 60px;
+    font-size: 1rem;
+    font-weight:  500;
+}
+
+
+.changeSpeedInput:hover {
+
+    background-color: lightgray;
+}
+
+.removeStopBtn {
+
+    margin-left: 20px;
+    width : 90%;
+    border : 1px  rgba(48, 74, 190, 1) solid;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: black;
+    background-color: rgba(48, 74, 190, 0.4);
+    text-align: center;
+    border-radius: 12px;
+}
+
+.removeStopBtn:hover {
+    color: black;
+    background-color: rgba(48, 74, 190, 1) ;
+    color: white;
+    cursor: pointer;
+}
+
+
+.modifyStopForm {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.innerModifyStopForm {
+    border : 1px solid darkgray;
+    border-radius: 6px;
+}
+
+.modifyStopTitle{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color : black;
+    margin-bottom : 20px;
+}
+
+.addStopBtn {
+    width: 10px;
+    border : 1px gray solid;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: gray;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.addStopBtn:hover {
+    color: black;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.addXYInput {
+
+    border:none;
+    border-bottom : 1px solid black;
+    text-align: right;
+    width : 50px;
+
+    font-size: 1rem;
+    font-weight:  500;
+
+}
+
+.addXYInput:hover {
+
+    background-color: lightgray;
+}
+
+.addSpeedInput {
+
+    border: none;
+    border-bottom : 1px solid black;
+    text-align: right;
+    width : 60px;
+
+    font-size: 1rem;
+    font-weight:  500;
+}
+
+
+.addSpeedInput:hover {
+
+    background-color: lightgray;
+}
+
+
+
+.bottomLine {
+    border-bottom: 1px dashed lightgray;
+}
+
+.maxStops, .duplicatedXY {
+    background-color: red;
+    color : white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.saveCancelBtns{
+    display: grid;
+    grid-template-columns: 30px 120px 50px 120px 30px;
+
+    margin-top : 10px;
+}
+
+.saveBtn{
+
+    border : 1px  rgba(13, 175, 13, 0.5) solid;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(13, 175, 13, 0.9);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.saveBtn:hover {
+    background-color: rgba(13, 175, 13, 0.5) ;
+    color: white;
+    cursor: pointer;
+}
+
+.cancelBtn{
+    padding-right:0;
+ 
+    border : 1px  rgba(201, 34, 48, 0.5) solid;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(201, 34, 48, 0.9);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.cancelBtn:hover {
+    background-color: rgba(201, 34, 48, 0.5) ;
+    color: white;
+    cursor: pointer;
+}

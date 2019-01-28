@@ -1,0 +1,24 @@
+.timeline {
+    margin-top : 10px;
+    padding : 10px;
+
+    border : 1px solid gray;
+    border-radius: 5px;
+}
+
+.timelineTitle {
+    margin-top : 5px;
+    color : black;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.notRunningText {
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+}
+
+.passedText {
+    color: black;
+}
