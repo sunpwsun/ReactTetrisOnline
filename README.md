@@ -1,2 +1,2 @@
 ## This tetris game is for multi-players that enjoy online.
-### Tech stask : React, Redux, socket.io. Canvas
+### Tech stack : React, Redux, socket.io. Canvas
